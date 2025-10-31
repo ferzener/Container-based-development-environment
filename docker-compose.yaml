@@ -5,4 +5,5 @@ services:
     container_name: dev-machine
     volumes:
       - $HOME/development/:/opt/
+      - $HOME/.ssh/:/root/.ssh/
     command: ["sleep", "infinity"]
