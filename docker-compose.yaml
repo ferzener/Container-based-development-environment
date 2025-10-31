@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  dev-machine:
+    image: pedrosdevmachine
+    container_name: dev-machine
+    volumes:
+      - $HOME/development/:/opt/
+    command: ["sleep", "infinity"]
+
